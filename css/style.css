@@ -37,7 +37,7 @@ body, html {
 }
 .globo {
     position: absolute;
-    background-color: #d6882e; /* Color de fondo del globo */
+    background-color: #c27f32; /* Color de fondo del globo */
     border-radius: 30px 10px 10px 30px; /* Radio de las esquinas redondeadas */
     padding: 20px; /* Espaciado interno del globo */
     max-width: 100%; /* Ancho máximo del globo */
@@ -51,7 +51,7 @@ body, html {
     position: absolute;
     border-style: solid;
     border-width: 25px 0 25px 25px;
-    border-color: transparent transparent transparent #d6882e; /* Color del globo y el borde derecho transparente */
+    border-color: transparent transparent transparent #c27f32; /* Color del globo y el borde derecho transparente */
     top: 20%;
     left: -20px; /* Posición del triángulo */
     transform: rotate(180deg);
