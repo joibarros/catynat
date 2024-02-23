@@ -1,0 +1,67 @@
+/*Letras Importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+
+/*Reset de pagina*/
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.navbar{
+    z-index: 2;
+    opacity: 0.5;
+
+.nav-item{
+    margin-right: 20px;
+}
+
+}
+.bg-img-container {
+    background-image: url('../assets/img/gato\ portada.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 150vh;
+    margin-top: -130px;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.globo p{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+  margin-left: 10px;
+}
+.globo {
+    position: absolute;
+    background-color: #ca9f67; /* Color de fondo del globo */
+    border-radius: 20px 30px 20px 20px; /* Radio de las esquinas redondeadas */
+    padding: 20px; /* Espaciado interno del globo */
+    width: 20vw ;/* Ancho máximo del globo */
+    height: 150px;
+    top: 70%;
+    right: 10%; /* Posición en el centro derecho de la imagen */
+    transform: translate(0, -50%); /* Centrar verticalmente */
+}
+
+.globo::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 70px 0 70px 70px;
+    border-color: transparent transparent transparent #ca9f67; /* Color del globo y el borde derecho transparente */
+    top: 5px;
+    left: -63px; /* Posición del triángulo */
+    transform: rotate(180deg);
+}
